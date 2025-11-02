@@ -1,0 +1,54 @@
+.asset-container {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1a1a1a;
+  padding: 20px 40px;
+  background-color: #fff;
+}
+
+.asset-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #555;
+  margin-top: 2px;
+}
+
+.parameters-section {
+  margin-top: 20px;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #dcdcdc; 
+}
+
+.parameters {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.parameter-row {
+  display: flex;
+  gap: 6px;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.label {
+  width: 160px;
+  color: #444;
+  font-weight: 500;
+}
+
+.value {
+  color: #000;
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "name": "Cartoning Area 1",
+    "type": "Area",
+    "children": [
+      {
+        "id": 2,
+        "name": "Packaging Unit 1",
+        "type": "Unit",
+        "children": [
+          {
+            "id": 3,
+            "name": "CH-0006",
+            "type": "Equipment",
+            "status": "Mapped",
+            "children": [
+              {
+                "id": 4,
+                "name": "100-ZS-0115A",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "100-ZS-0115A",
+                  "Instrument Type": "Speed Switch High",
+                  "IO Type": "Input",
+                  "Data Type": "Boolean",
+                  "Parent": "CH-0006"
+                }
+              },
+              {
+                "id": 5,
+                "name": "100-ZS-0115B",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "100-ZS-0115B",
+                  "Instrument Type": "Speed Switch Low",
+                  "IO Type": "Output",
+                  "Data Type": "Real",
+                  "Parent": "CH-0006"
+                }
+              },
+              {
+                "id": 6,
+                "name": "100-LSH-0116",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "100-LSH-0116",
+                  "Instrument Type": "Level Switch High",
+                  "IO Type": "Input",
+                  "Data Type": "Boolean",
+                  "Parent": "CH-0006"
+                }
+              },
+              {
+                "id": 7,
+                "name": "100-HSS-0114",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "100-HSS-0114",
+                  "Instrument Type": "Humidity Sensor",
+                  "IO Type": "Analog Input",
+                  "Data Type": "Float",
+                  "Parent": "CH-0006"
+                }
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "CV-0005A",
+            "type": "Equipment",
+            "status": "Mapped",
+            "children": [
+              {
+                "id": 9,
+                "name": "101-ZS-0115A",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "101-ZS-0115A",
+                  "Instrument Type": "Speed Switch High",
+                  "IO Type": "Input",
+                  "Data Type": "Boolean",
+                  "Parent": "CV-0005A"
+                }
+              },
+              {
+                "id": 10,
+                "name": "102-ZS-0115B",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "102-ZS-0115B",
+                  "Instrument Type": "Speed Switch Low",
+                  "IO Type": "Output",
+                  "Data Type": "Real",
+                  "Parent": "CV-0005A"
+                }
+              },
+              {
+                "id": 11,
+                "name": "103-LSH-0116",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "103-LSH-0116",
+                  "Instrument Type": "Level Switch High",
+                  "IO Type": "Input",
+                  "Data Type": "Boolean",
+                  "Parent": "CV-0005A"
+                }
+              },
+              {
+                "id": 12,
+                "name": "104-HSS-0114",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "104-HSS-0114",
+                  "Instrument Type": "Humidity Sensor",
+                  "IO Type": "Analog Input",
+                  "Data Type": "Float",
+                  "Parent": "CV-0005A"
+                }
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "name": "MS-0002",
+            "type": "Equipment",
+            "status": "Needs Review",
+            "children": [
+              {
+                "id": 14,
+                "name": "105-ZS-0115A",
+                "type": "Instrument",
+                "status": "Needs Review",
+                "parameters": {
+                  "Instrument Name": "105-ZS-0115A",
+                  "Instrument Type": "Motor Speed Sensor",
+                  "IO Type": "Input",
+                  "Data Type": "Real",
+                  "Parent": "MS-0002"
+                }
+              },
+              {
+                "id": 15,
+                "name": "106-ZS-0115B",
+                "type": "Instrument",
+                "status": "Needs Review",
+                "parameters": {
+                  "Instrument Name": "106-ZS-0115B",
+                  "Instrument Type": "Motor Speed Alarm",
+                  "IO Type": "Output",
+                  "Data Type": "Boolean",
+                  "Parent": "MS-0002"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Cartoning Area 2",
+    "type": "Area",
+    "children": [
+      {
+        "id": 17,
+        "name": "Packaging Unit 2",
+        "type": "Unit",
+        "children": [
+          {
+            "id": 18,
+            "name": "CH-0007",
+            "type": "Equipment",
+            "status": "Mapped",
+            "children": [
+              {
+                "id": 19,
+                "name": "200-ZS-0115A",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "200-ZS-0115A",
+                  "Instrument Type": "Speed Switch High",
+                  "IO Type": "Input",
+                  "Data Type": "Boolean",
+                  "Parent": "CH-0007"
+                }
+              },
+              {
+                "id": 20,
+                "name": "200-ZS-0115B",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "200-ZS-0115B",
+                  "Instrument Type": "Speed Switch Low",
+                  "IO Type": "Output",
+                  "Data Type": "Real",
+                  "Parent": "CH-0007"
+                }
+              },
+              {
+                "id": 21,
+                "name": "200-LSH-0116",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "200-LSH-0116",
+                  "Instrument Type": "Level Switch High",
+                  "IO Type": "Input",
+                  "Data Type": "Boolean",
+                  "Parent": "CH-0007"
+                }
+              },
+              {
+                "id": 22,
+                "name": "200-HSS-0114",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "200-HSS-0114",
+                  "Instrument Type": "Humidity Sensor",
+                  "IO Type": "Analog Input",
+                  "Data Type": "Float",
+                  "Parent": "CH-0007"
+                }
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "name": "CV-0006A",
+            "type": "Equipment",
+            "status": "Mapped",
+            "children": [
+              {
+                "id": 24,
+                "name": "201-ZS-0115A",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "201-ZS-0115A",
+                  "Instrument Type": "Speed Switch High",
+                  "IO Type": "Input",
+                  "Data Type": "Boolean",
+                  "Parent": "CV-0006A"
+                }
+              },
+              {
+                "id": 25,
+                "name": "202-ZS-0115B",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "202-ZS-0115B",
+                  "Instrument Type": "Speed Switch Low",
+                  "IO Type": "Output",
+                  "Data Type": "Real",
+                  "Parent": "CV-0006A"
+                }
+              },
+              {
+                "id": 26,
+                "name": "203-LSH-0116",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "203-LSH-0116",
+                  "Instrument Type": "Level Switch High",
+                  "IO Type": "Input",
+                  "Data Type": "Boolean",
+                  "Parent": "CV-0006A"
+                }
+              },
+              {
+                "id": 27,
+                "name": "204-HSS-0114",
+                "type": "Instrument",
+                "status": "Mapped",
+                "parameters": {
+                  "Instrument Name": "204-HSS-0114",
+                  "Instrument Type": "Humidity Sensor",
+                  "IO Type": "Analog Input",
+                  "Data Type": "Float",
+                  "Parent": "CV-0006A"
+                }
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "name": "MS-0003",
+            "type": "Equipment",
+            "status": "Needs Review",
+            "children": [
+              {
+                "id": 29,
+                "name": "205-ZS-0115A",
+                "type": "Instrument",
+                "status": "Needs Review",
+                "parameters": {
+                  "Instrument Name": "205-ZS-0115A",
+                  "Instrument Type": "Motor Speed Sensor",
+                  "IO Type": "Input",
+                  "Data Type": "Real",
+                  "Parent": "MS-0003"
+                }
+              },
+              {
+                "id": 30,
+                "name": "206-ZS-0115B",
+                "type": "Instrument",
+                "status": "Needs Review",
+                "parameters": {
+                  "Instrument Name": "206-ZS-0115B",
+                  "Instrument Type": "Motor Speed Alarm",
+                  "IO Type": "Output",
+                  "Data Type": "Boolean",
+                  "Parent": "MS-0003"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

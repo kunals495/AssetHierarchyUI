@@ -1,0 +1,36 @@
+.left-nav {
+  width: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;  
+  justify-content: center;  
+  align-items: center; 
+  gap: 25px;  
+}
+
+.tag,
+.setting {
+  margin-top: 12px;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.home {
+  width: 15px;
+  height: 15px;
+  margin-top: 20px
+}
+
+.factory {
+  width: 15px;
+  height: 15px;
+}
+
+.shop {
+  width: 15px;
+  height: 15px;
+  margin-top: auto;  
+}

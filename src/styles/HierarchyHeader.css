@@ -1,0 +1,51 @@
+.hierarchy-header {
+    display:flex;
+    align-items: center;
+    gap: 9px;
+    background-color: white;
+    border-top-right-radius: 10px;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+.add-buttons {
+    margin-left:auto;
+    background-color: rgb(8, 166, 8);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.expand-button {
+    margin-right: 10px;
+}
+
+.search-button, .filter-button, .expand-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-button img {
+    width: 18px;
+    height: 18px;
+    rotate: 270deg;
+}
+
+.filter-button img {
+    width: 18px;
+    height: 18px;
+}
+
+.expand-button img {
+    width: 18px;
+    height: 18px;
+    rotate: 90deg;
+}
