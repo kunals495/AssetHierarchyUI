@@ -15,3 +15,7 @@
 🧩 Asset Modification Features 
 
 <img width="1909" height="895" alt="image" src="https://github.com/user-attachments/assets/ebc786ef-c63f-4055-a705-f2853ff66b8f" />
+
+Add Instrument Configuration
+
+<img width="1905" height="900" alt="image" src="https://github.com/user-attachments/assets/f2340a9b-d533-406c-8c55-5327ca546f36" />
